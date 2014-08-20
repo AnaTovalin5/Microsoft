@@ -1,0 +1,149 @@
+html, body {height:100%;}
+
+html {
+    overflow-y: scroll;
+    background-image: url('../images/ocean.jpg');
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    -moz-background-size: contain;
+    height: 100%;
+}
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	/*margin-top:-32767px;*/
+}
+/* LOGIN PAGES */
+#login {
+    background-color: rgba(0, 0, 0, .4);    
+    text-align: center;
+    margin: 100px 0px 0px 450px; 
+    height: 300px;
+    width: 300px;
+    color: white;
+    padding: 100px 20px 20px 160px;
+}
+
+#errorMessage {
+    color: red;
+}
+
+#loginWords {
+    color: white;
+    font-size: 50px;
+}
+
+#makeAccount {
+    background-color: rgba(0, 0, 0, .4);    
+    text-align: center;
+    margin: 100px 0px 0px 500px; 
+    height: 300px;
+    width: 300px;
+    color: white;
+    padding: 100px 20px 20px 160px;
+    margin: 100px 0px 0px 450px; 
+}
+
+#messagebox {
+    background-color: rgba(0, 0, 0, .4);   
+    font-family: 'Dosis', 'sans-serif';
+    text-align: center; 
+    height: 400px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+#messagesDiv {
+    background-color: rgba(0, 0, 0, .4);   
+    font-family: 'Dosis', 'sans-serif';
+    text-align: center; 
+    height: 400px;
+    width: 400px;
+    color: white;
+    margin: 0 auto; 
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+    overflow: scroll;
+}
+
+#messageInputBox {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#messageInput {
+    height: 40px;
+    width: 350px;
+    margin: 0 auto; 
+}
+
+#words {
+    font-family: 'Dosis', 'sans-serif';
+    text-align: center; 
+    font-size: 30px;
+    /*margin: 25px 0px 0px 100px;*/ 
+    text-shadow: 0px 0px 3px rgb(250,250,250);
+    color: white;
+}
+
+#title{
+   -webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg);	
+   font-family: 'Dosis', 'sans-serif';
+   font-size: 100px;
+   margin: 0px 1000px 0px 0px;
+    text-shadow: 0px 0px 3px rgb(250,250,250);
+    color: white;
+}
+
+#signOut {
+    text-align: right;
+    font-family: 'Dosis', 'sans-serif';
+    font-size: 20px;
+}
+/* LOGIN PAGES */
+
+
+/* LEFT SIDE */
+
+/* LEFT SIDE */
+
+
+/* RIGHT SIDE */
+
+
+/* RIGHT SIDE */
+
+
+/* FOOTER */
+#footer {
+    position: fixed;
+    align-text: right;
+    margin: 10px 0px 0px 0px;
+}
+/* FOOTER */
+
+/* LINKS */
+
+a:link {color:white; text-decoration: none;}      /* unvisited link */
+a:visited {color:white;}  /* visited link */
+a:hover {text-shadow: 0px 0px 3px rgb(250,250,250);}  /* mouse over link */
+a:active {color:#262626;}  /* selected link */ 
+
+/* LINKS */
+
+/*BUTTONS*/
+
+/*BUTTONS*/
+
+/* FORMS */
+
+
+
+/* FORMS */
